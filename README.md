@@ -1,5 +1,6 @@
-# EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
+EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
 
+labala sreesanth -RA2511030010316
 ## 1. Aim
 
 To design, implement, simplify, and verify combinational logic circuits using Boolean algebra and digital logic gates.
@@ -28,10 +29,11 @@ F1 = (!A & B & C)
    | (!B & C & D)
    | (A & !C & D)
 ```
-
+<img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/7d3bbef8-dfbf-4773-8561-70f4ab6f4493" />
 **Inputs:** A, B, C, D  
 **Output:** F1  
 **Challenge:** Simplify the expression and compare gate counts.
+
 
 ### Equation 2: Product-of-Sums Circuit
 
@@ -44,6 +46,8 @@ F2 = (A | !B | C)
 **Inputs:** A, B, C, D  
 **Output:** F2  
 **Challenge:** Implement the circuit using NAND gates and verify functional equivalence.
+<img width="762" height="470" alt="image" src="https://github.com/user-attachments/assets/a1f197cf-aa46-4d97-bd4f-08d83184dc4d" />
+
 
 ### Equation 3: Nested Complement Logic
 
